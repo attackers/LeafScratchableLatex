@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import CoreGraphics
 class ScratchableLatexLayer: CALayer {
     var isSelect = false
     var tag: NSInteger?
