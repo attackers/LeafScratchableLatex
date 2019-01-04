@@ -11,6 +11,7 @@
 		347EBE5521DF53630091C00C /* ScratchableLatexLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EBE5321DF53630091C00C /* ScratchableLatexLayer.swift */; };
 		347EBE5621DF53630091C00C /* ScratchableLatexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EBE5421DF53630091C00C /* ScratchableLatexView.swift */; };
 		347EBE5721DF6AFB0091C00C /* LeafScratchableLatex.framework in Headers */ = {isa = PBXBuildFile; fileRef = 347EBE4821DF53400091C00C /* LeafScratchableLatex.framework */; };
+		347EBE7F21DF74F80091C00C /* LeafScratchableLatex.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 347EBE7E21DF74F80091C00C /* LeafScratchableLatex.podspec */; };
 		777CA9DB436A27565B80EA02 /* Pods_LeafScratchableLatex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D9BC8BD433D249ADB47D67 /* Pods_LeafScratchableLatex.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		347EBE4C21DF53400091C00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		347EBE5321DF53630091C00C /* ScratchableLatexLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchableLatexLayer.swift; sourceTree = "<group>"; };
 		347EBE5421DF53630091C00C /* ScratchableLatexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchableLatexView.swift; sourceTree = "<group>"; };
+		347EBE7E21DF74F80091C00C /* LeafScratchableLatex.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LeafScratchableLatex.podspec; sourceTree = "<group>"; };
 		85F348F7890190D80E1929FF /* Pods-LeafScratchableLatex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeafScratchableLatex.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeafScratchableLatex/Pods-LeafScratchableLatex.release.xcconfig"; sourceTree = "<group>"; };
 		F2D9BC8BD433D249ADB47D67 /* Pods_LeafScratchableLatex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeafScratchableLatex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F734238DD0C0C2DFFAC925AF /* Pods-LeafScratchableLatex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeafScratchableLatex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeafScratchableLatex/Pods-LeafScratchableLatex.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		347EBE3E21DF53400091C00C = {
 			isa = PBXGroup;
 			children = (
+				347EBE7E21DF74F80091C00C /* LeafScratchableLatex.podspec */,
 				347EBE4A21DF53400091C00C /* LeafScratchableLatex */,
 				347EBE4921DF53400091C00C /* Products */,
 				404D5DBDF4CC76298DD84E9E /* Pods */,
@@ -153,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347EBE7F21DF74F80091C00C /* LeafScratchableLatex.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

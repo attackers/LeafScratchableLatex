@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum ScratchableLatexType {
+public enum ScratchableLatexType {
     
     /// 保存解锁手势
     case save_ScratchableLatexType
@@ -20,8 +20,8 @@ enum ScratchableLatexType {
     case delete_ScratchableLatexType
 
 }
-typealias ScratchableLatexStatus = (_ type: ScratchableLatexType,_ verity: Bool,_ verifyNumber: NSInteger) -> Void
-class ScratchableLatexView: UIView {
+public typealias ScratchableLatexStatus = (_ type: ScratchableLatexType,_ verity: Bool,_ verifyNumber: NSInteger) -> Void
+public class ScratchableLatexView: UIView {
     
     let key_ScratchableLatex = "ScratchableLatex"
 
@@ -60,7 +60,7 @@ class ScratchableLatexView: UIView {
         }
     }
 
-    override func draw(_ layer: CALayer, in ctx: CGContext) {
+    override public func draw(_ layer: CALayer, in ctx: CGContext) {
         self.backgroundColor = UIColor.white
         guard !(drawPoins.isEmpty) else {
             return
@@ -79,7 +79,7 @@ class ScratchableLatexView: UIView {
 }
 extension ScratchableLatexView {
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !drawPoins.isEmpty {
             drawPoins.removeAll()
             _ = layer.sublayers?.map({ clayer in
@@ -92,7 +92,7 @@ extension ScratchableLatexView {
         layer.setNeedsDisplay()
     }
     
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touch = touches.first
 
        _ = layer.sublayers?.map({ cLayer in
@@ -109,7 +109,7 @@ extension ScratchableLatexView {
         
         layer.setNeedsDisplay()
     }
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         switch type {
         case .change_ScratchableLatexType:

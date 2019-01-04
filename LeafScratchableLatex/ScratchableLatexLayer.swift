@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreGraphics
-class ScratchableLatexLayer: CALayer {
+public class ScratchableLatexLayer: CALayer {
     var isSelect = false
     var tag: NSInteger?
     override init() {
@@ -19,7 +19,7 @@ class ScratchableLatexLayer: CALayer {
         fatalError("init(coder:) has not been implemented")
     }
 
-    override func draw(in ctx: CGContext) {
+    override public func draw(in ctx: CGContext) {
         self.backgroundColor = UIColor.white.cgColor
         let point = CGPoint(x: self.frame.width/2.0, y: self.frame.height/2.0)
         ctx.addArc(center: point, radius: self.frame.width/2.0 - 1, startAngle: 0.0, endAngle: .pi * 2, clockwise: true)
