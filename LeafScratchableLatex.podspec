@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LeafScratchableLatex"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "一个用于做九宫格的手势解锁功能"
 
   # This description is used to generate tags and improve search results.

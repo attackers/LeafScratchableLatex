@@ -10,6 +10,7 @@
 		347EBE4D21DF53400091C00C /* LeafScratchableLatex.h in Headers */ = {isa = PBXBuildFile; fileRef = 347EBE4B21DF53400091C00C /* LeafScratchableLatex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		347EBE5521DF53630091C00C /* ScratchableLatexLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EBE5321DF53630091C00C /* ScratchableLatexLayer.swift */; };
 		347EBE5621DF53630091C00C /* ScratchableLatexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347EBE5421DF53630091C00C /* ScratchableLatexView.swift */; };
+		347EBE5721DF6AFB0091C00C /* LeafScratchableLatex.framework in Headers */ = {isa = PBXBuildFile; fileRef = 347EBE4821DF53400091C00C /* LeafScratchableLatex.framework */; };
 		777CA9DB436A27565B80EA02 /* Pods_LeafScratchableLatex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D9BC8BD433D249ADB47D67 /* Pods_LeafScratchableLatex.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				347EBE4D21DF53400091C00C /* LeafScratchableLatex.h in Headers */,
+				347EBE5721DF6AFB0091C00C /* LeafScratchableLatex.framework in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
