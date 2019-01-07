@@ -32,7 +32,7 @@ public class ScratchableLatexView: UIView {
     
     var scratchableLatexStatus: ScratchableLatexStatus?
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         let width = frame.width/5.0
         let leftX = 10.0

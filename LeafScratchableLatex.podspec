@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
  
   s.name         = "LeafScratchableLatex"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "一个用于做九宫格的手势解锁功能"
   s.description  = <<-DESC
 		一个用于做九宫格的手势解锁功能

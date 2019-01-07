@@ -9,8 +9,8 @@
 import UIKit
 import CoreGraphics
 public class ScratchableLatexLayer: CALayer {
-    var isSelect = false
-    var tag: NSInteger?
+   public var isSelect = false
+   public var tag: NSInteger?
     override init() {
         super.init()
     }
